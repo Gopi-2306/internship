@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Registeration</title>
+  <style>
+    body{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .form{
+      border: 5px solid black;
+      width: 500px;
+      height: 400px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <center>
+  <div class="form">
+     <form action="print.html">
+        <h1 style="color: rgb(21, 106, 203);font-family: poppins;text-shadow:2px 4px 5px 6px red;;">Register Form</h1>
+        <hr>
+        <label >Name :</label><input type="text" required/><br><br>
+        <label>DOB :</label><input type="date" required><br><br>
+        <label>E-mail :</label><input type="email" required/><br><br>
+        <label>Phone Number :</label><input type="number" required/><br><br>
+        <label>Location :</label><input type="text" required/><br><br>
+        <label>Gender :</label>
+        <input type="radio"  name="Gender"  /><label>Male </label>
+        <input type="radio"  name="Gender"  /><label>Female</label>
+        <input type="radio"  name="Gender"  /><label>Others</label><br><br>
+        <label>Degree :</label>
+        <select>
+            <option>B.sc CS</option>
+            <option>B.sc IT</option>
+            <option>B.sc zoology </option>
+        </select><br><br>
+        <button >submit</button>
+      </form>
+    </div><br>
+    </center>
+      </body>
+</html>
