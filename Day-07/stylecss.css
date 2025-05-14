@@ -1,0 +1,99 @@
+body{
+    
+    background-image: url(WhatsApp\ Image\ 2025-05-12\ at\ 11.36.13_ec834e53.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+
+}
+.text,.text2{
+    color: white;
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: bolder;
+}
+h3{
+      color: white;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.experience{
+    font-weight: bolder;
+    color: white;
+}
+.ltext{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.left
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    flex-basis:500px;
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: start;
+}
+.right{
+    flex-basis:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h3c{
+    
+    font-variant: small-caps;
+}
+.per{
+    font-size: 45px;
+}
+.top,.center,.bottom{
+    display: flex;
+    gap:20px;
+}
+.h3c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+}
+.text2{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+.under{
+    width: 300px;
+    height: 2px;
+    position: relative;
+    background-color: #333;
+}
+.under::before{
+    content:'';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:20px;
+    height: 2px;
+    background-color: brown;
+
+}
+span{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 3px;
+    background-color: red;
+}
