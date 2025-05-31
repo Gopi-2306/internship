@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color:#333;
+}
+.cart1{
+    width: 200px;
+    height: 526px;
+    background-image: url(f541bde1-1cfe-456b-8b32-49374c3c7596.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cart2{
+    width: 200px;
+    height: 526px;
+    background-image: url(282c2811-2fa3-436f-a847-136cc8d9416d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cart3{
+    width: 200px;
+    height: 526px;
+    background-image: url(bb7bce90-8966-4393-a345-76e6228b2b6b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cart4{
+    width: 200px;
+    height: 526px;
+    background-image:url(f11077ef-8ef3-45a7-8077-0383c1118ff7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cart5{
+    width: 200px;
+    height: 526px;
+    background-image: url(Toppers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cart6{
+    width: 200px;
+    height: 526px;
+    background-image: url(86175ca4-af7a-4f65-9305-32d27c28cf3e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cart7{
+    width: 200px;
+    height: 526px;
+    background-image: url(717365e0-6c44-4ecd-ac7f-bc9192467dda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+.items{
+    flex: 1;
+    border-radius: 20px;
+    position: relative;
+    writing-mode:sideways-lr;    
+}
+.items:hover{
+    flex: 2;
+    cursor: pointer;
+    writing-mode: horizontal-tb;
+    transition: all  linear;
+}
+.items::before{
+    content: '';
+    background: linear-gradient(to top,rgba(0, 0, 0, 0.995), rgba(0, 0, 0, 0.626),transparent);
+    position: absolute;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 100px; 
+    position: absolute;
+    bottom: 20px;
+    z-index: 1;
+}
+.pa{
+    text-align: justify;
+    opacity: 0;
+}
+.items:hover .pa{
+    opacity: 1;
+    text-align: center;
+}
+.items:hover h1{
+    text-align: center;
+}
+
